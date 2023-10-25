@@ -5,7 +5,10 @@ export const SectionPresentation = () => {
     <section className="grid place-items-center space-y-4">
       <div className="rounded-full border-2 bg-gradient-to-br from-sky-500 to-violet-700 p-1">
         <Avatar className="h-24 w-24">
-          <AvatarImage src="https://avatars.githubusercontent.com/u/97995126?v=4" />
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/97995126?v=4"
+            alt="Avatar image"
+          />
           <AvatarFallback className="bg-background/60 backdrop-blur-sm">
             DR
           </AvatarFallback>
