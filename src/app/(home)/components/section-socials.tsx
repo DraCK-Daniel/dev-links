@@ -9,7 +9,7 @@ export const SectionSocials = () => {
           href={social.href}
           target="_blank"
           rel="noreferrer"
-          className="text-foreground/50 hover:text-foreground transition-all duration-300 hover:scale-125"
+          className="text-foreground/50 transition-all duration-300 hover:scale-125 hover:text-foreground"
         >
           <social.icon className="h-6 w-6" />
         </a>

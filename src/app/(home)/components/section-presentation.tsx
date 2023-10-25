@@ -17,7 +17,7 @@ export const SectionPresentation = () => {
           Daniel Rodrigues
         </h1>
 
-        <p className="text-muted-foreground text-sm">
+        <p className="text-sm text-muted-foreground">
           Hello! My name is Daniel and I am a Front End Developer.
         </p>
       </div>

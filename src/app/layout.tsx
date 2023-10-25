@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body
         className={cn(
-          'bg-background text-foreground dark relative flex min-h-screen items-center justify-center font-sans',
+          'dark relative flex min-h-screen items-center justify-center bg-background font-sans text-foreground',
           inter.variable,
         )}
       >
