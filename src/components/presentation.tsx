@@ -10,7 +10,7 @@ export const Presentation = ({ name, description }: PresentationProps) => {
         {name}
       </h1>
 
-      <p className="text-sm text-muted-foreground">{description}</p>
+      <p className="text-muted-foreground text-sm">{description}</p>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-import { cn } from '@/lib/utils'
 import '../styles/globals.css'
 
 import { inter } from '@/styles/fonts'
@@ -17,10 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={cn(
-          'bg-background text-foreground dark relative flex min-h-screen items-center justify-center font-sans',
-          inter.variable,
-        )}
+        className={`${inter.variable} bg-background text-foreground dark relative flex min-h-screen items-center justify-center font-sans`}
       >
         <div className="bg-home absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat" />
         {children}
