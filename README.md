@@ -4,7 +4,7 @@ Projeto feito para divulgação dos links de redes sociais e portfolio.
 
 &nbsp;
 
-[Clique aqui](https://fsw-store-ten.vercel.app/) para ver o projeto em tempo real.
+[Clique aqui](https://dev-links-tawny.vercel.app/) para ver o projeto em tempo real.
 
 &nbsp;
 
