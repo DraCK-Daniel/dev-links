@@ -23,7 +23,18 @@ export default function RootLayout({
           inter.variable,
         )}
       >
-        <BackgroundImage />
+        <BackgroundImage
+          src="/glow-homepage-mobile.webp"
+          className="md:hidden"
+        />
+        <BackgroundImage
+          src="/glow-homepage-tablet.webp"
+          className="hidden md:block lg:hidden"
+        />
+        <BackgroundImage
+          src="/glow-homepage.webp"
+          className="hidden lg:block"
+        />
 
         {children}
       </body>

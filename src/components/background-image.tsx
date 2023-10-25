@@ -1,10 +1,16 @@
+import { cn } from '@/lib/utils'
 import Image from 'next/image'
 
-export const BackgroundImage = () => {
+type BackGroundImageProps = {
+  src: string
+  className?: string
+}
+
+export const BackgroundImage = ({ src, className }: BackGroundImageProps) => {
   return (
-    <div className="absolute inset-0 -z-10 h-auto w-auto">
+    <div className={cn('absolute inset-0 -z-10 h-auto w-auto', className)}>
       <Image
-        src="/glow-homepage.webp"
+        src={src}
         alt="Background gradient Home Page"
         fill
         sizes="100%"
