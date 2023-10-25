@@ -1,13 +1,13 @@
 import { DiscordLogoIcon } from '@radix-ui/react-icons'
-import { Instagram, Twitch, Twitter, Youtube } from 'lucide-react'
+import { Instagram, Twitter, Youtube } from 'lucide-react'
 
 export const SOCIALS = [
   {
-    href: '/',
+    href: 'https://www.instagram.com/danieelrds/',
     icon: Instagram,
   },
   {
-    href: '/',
+    href: 'https://twitter.com/danielrdsdev',
     icon: Twitter,
   },
   {
@@ -15,11 +15,7 @@ export const SOCIALS = [
     icon: DiscordLogoIcon,
   },
   {
-    href: '/',
+    href: 'https://www.youtube.com/@DanielRodrigues/',
     icon: Youtube,
-  },
-  {
-    href: '/',
-    icon: Twitch,
   },
 ]
