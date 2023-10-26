@@ -8,7 +8,7 @@ export const LINKS = [
   },
   {
     name: 'LinkedIn',
-    href: '/',
+    href: 'www.linkedin.com/in/daniel-rodrigues-135287260',
     icon: Linkedin,
   },
   {
