@@ -8,6 +8,15 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Daniel Rodrigues | Dev Links',
   description: 'Page to list all social links',
+  openGraph: {
+    images: [
+      {
+        url: 'https://dev-links-tawny.vercel.app/og-image.png',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
