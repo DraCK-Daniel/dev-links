@@ -9,6 +9,7 @@ export const SectionSocials = () => {
           href={social.href}
           target="_blank"
           rel="noreferrer"
+          aria-label="Social link"
           className="text-foreground/50 transition-all duration-300 hover:scale-125 hover:text-foreground"
         >
           <social.icon className="h-6 w-6" />
