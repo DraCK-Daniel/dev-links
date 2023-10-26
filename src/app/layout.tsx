@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://dev-links-tawny.vercel.app/og-image.png',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
       },
