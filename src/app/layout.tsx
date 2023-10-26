@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@/components/theme-provider'
 import '../styles/globals.css'
 
 import { BackgroundImage } from '@/components/background-image'
@@ -33,21 +34,23 @@ export default function RootLayout({
           inter.variable,
         )}
       >
-        <BackgroundImage
-          src="/glow-homepage-mobile.webp"
-          className="md:hidden"
-        />
-        <BackgroundImage
-          src="/glow-homepage-tablet.webp"
-          className="hidden md:block lg:hidden"
-        />
-        <BackgroundImage
-          src="/glow-homepage.webp"
-          className="hidden lg:block"
-        />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <BackgroundImage
+            src="/glow-homepage-mobile.webp"
+            className="md:hidden"
+          />
+          <BackgroundImage
+            src="/glow-homepage-tablet.webp"
+            className="hidden md:block lg:hidden"
+          />
+          <BackgroundImage
+            src="/glow-homepage.webp"
+            className="hidden lg:block"
+          />
 
-        {children}
-        <Analytics />
+          {children}
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   )
