@@ -1,8 +1,9 @@
-import { cn } from '@/lib/utils'
 import '../styles/globals.css'
 
 import { BackgroundImage } from '@/components/background-image'
+import { cn } from '@/lib/utils'
 import { inter } from '@/styles/fonts'
+import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -46,6 +47,7 @@ export default function RootLayout({
         />
 
         {children}
+        <Analytics />
       </body>
     </html>
   )
