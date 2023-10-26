@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 export const SectionPresentation = () => {
   return (
     <section className="grid place-items-center space-y-4">
-      <div className="rounded-full border-2 bg-gradient-to-br from-sky-500 to-violet-700 p-1">
+      <div className="rounded-full border-2 bg-gradient-to-br from-pink-600 via-sky-500 to-violet-900 p-1">
         <Avatar className="h-24 w-24">
           <AvatarImage
             src="https://avatars.githubusercontent.com/u/97995126?v=4"
