@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body
         className={cn(
-          'relative flex min-h-screen items-center justify-center bg-background font-sans text-foreground',
+          'relative flex h-[100dvh] items-center justify-center bg-background font-sans text-foreground',
           inter.variable,
         )}
       >
