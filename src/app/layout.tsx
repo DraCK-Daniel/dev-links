@@ -1,7 +1,8 @@
-import { ThemeProvider } from '@/components/theme-provider'
 import '../styles/globals.css'
 
 import { BackgroundImage } from '@/components/background-image'
+import { ModeToggle } from '@/components/mode-toggle'
+import { ThemeProvider } from '@/components/theme-provider'
 import { cn } from '@/lib/utils'
 import { inter } from '@/styles/fonts'
 import { Analytics } from '@vercel/analytics/react'
@@ -30,11 +31,15 @@ export default function RootLayout({
     <html lang="pt-br">
       <body
         className={cn(
-          'dark relative flex min-h-screen items-center justify-center bg-background font-sans text-foreground',
+          'relative flex min-h-screen items-center justify-center bg-background font-sans text-foreground',
           inter.variable,
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="absolute right-6 top-6">
+            <ModeToggle />
+          </div>
+
           <BackgroundImage
             src="/glow-homepage-mobile.webp"
             className="md:hidden"
