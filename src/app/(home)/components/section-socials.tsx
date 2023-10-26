@@ -8,7 +8,7 @@ export const SectionSocials = () => {
           key={social.href}
           href={social.href}
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           aria-label="Social link"
           className="text-foreground/50 transition-all duration-300 hover:scale-125 hover:text-foreground"
         >
