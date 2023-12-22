@@ -1,4 +1,4 @@
-import { LINKS } from '@/constants/links'
+import { LINKS } from '@/config/links'
 
 export const SectionButtons = () => {
   return (

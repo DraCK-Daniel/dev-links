@@ -1,4 +1,4 @@
-import { SOCIALS } from '@/constants/socials'
+import { SOCIALS } from '@/config/links'
 
 export const SectionSocials = () => {
   return (
